@@ -1,0 +1,69 @@
+# Shared by all current and future subprojects in this repository.
+
+# Python environments, including old environment backups
+.venv/
+.venv_*/
+venv/
+env/
+
+# Python bytecode and packaging artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Package, test and analysis caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# IDE-local settings
+.idea/
+.vscode/
+
+# Local datasets (directory names apply at every depth)
+data/
+datasets/
+TrainSet/
+TestSet/
+*TrainSet/
+*TestSet/
+
+# Experiment output, generated reports, model weights and logs
+outputs/
+results.html
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.log
+events.out.tfevents.*
+
+# Downloaded archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local secrets; allow a checked-in example
+.env
+.env.*
+!.env.example
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+
+# Keep source, README.md, pyproject.toml, uv.lock and .python-version tracked.
